@@ -37,10 +37,10 @@ def fix_imports(script):
         f_script.write("\n".join(new_lines))
 
 
-def main():
+def main(tool):
     global args, cmd, p, match, output
     args = ' '.join(sys.argv[1:])
-    cmd = 'pyuic5 %s' % args
+    cmd = '%s %s' % (tool, args)
     p = re.compile(r'-o .*\.py')
     match = re.search(p, args)
     status = os.system(cmd)
@@ -54,5 +54,9 @@ def main():
         return status
 
 
-if __name__ == '__main__':
-    main()
+def main_uic():
+    return main('pyuic5')
+
+
+def main_rcc():
+    return main('pyrcc5')
