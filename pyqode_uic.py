@@ -9,10 +9,6 @@ It does two thing:
     - replace ``from PyQt5 import`` by ``from pyqode.core.qt import`` in the
 
 """
-__author__ = 'Colin Duquesnoy'
-__license__ = 'MIT'
-__version__ = '1.0'
-
 import re
 import sys
 import os

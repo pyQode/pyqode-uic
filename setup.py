@@ -1,9 +1,9 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='pyqode-uic',
-    version='1.0',
-    py_modules=['pyqode_uic', 'pyqode_rcc'],
+    version='0.1',
+    py_modules=['pyqode_uic'],
     url='https://github.com/pyQode/pyqode-pyuic',
     license='MIT',
     author='Colin Duquesnoy',
