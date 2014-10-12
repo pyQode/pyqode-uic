@@ -1,5 +1,16 @@
-pyqode-uic
-==========
+.. image:: https://raw.githubusercontent.com/pyQode/pyqode.core/master/doc/source/_static/pyqode-banner.png
+
+
+About
+-----
+
+.. image:: http://img.shields.io/pypi/v/pyqode-uic.png
+   :target: https://pypi.python.org/pypi/pyqode-uic/
+   :alt: Latest PyPI version
+
+.. image:: http://img.shields.io/pypi/dm/pyqode-uic.png
+   :target: https://pypi.python.org/pypi/pyqode-uic/
+   :alt: Number of PyPI downloads
 
 Compile Qt Designer ui files to python scripts using the ``pyqode.qt``
 package instead of ``PyQt5``.
@@ -14,7 +25,6 @@ This tool is part of the `pyQode`_ project.
 - `Wiki`_
 - `Contributing`_
 - `Changelog`_
-- `Screenshots`_
 
 
 Usage
@@ -39,7 +49,7 @@ Installation
 License
 -------
 
-This project is licensed under the MIT license.
+This project is licensed under the **MIT license**.
 
 .. _Changelog: https://github.com/pyQode/pyqode-uic/blob/master/CHANGELOG.rst
 .. _Contributing: https://github.com/pyQode/pyqode-uic/blob/master/CONTRIBUTING.rst
