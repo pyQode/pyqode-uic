@@ -1,12 +1,21 @@
 pyqode-uic
 ==========
 
-Compile Qt ui files to python scripts using the ``pyqode.core.qt`` package
-instead of ``PyQt5``.
+Compile Qt Designer ui files to python scripts using the ``pyqode.qt``
+package instead of ``PyQt5``.
 
 The tool is a simple wrapper on top of ``pyuic5``/``pyrcc5``. It does two thing:
     - run pyuic5 or pyrcc5 (with the supplied arguments)
     - replace ``from PyQt5 import`` by ``from pyqode.core.qt import`` in the
+
+This tool is part of the `pyQode`_ project.
+
+- `Issue tracker`_
+- `Wiki`_
+- `Contributing`_
+- `Changelog`_
+- `Screenshots`_
+
 
 Usage
 -----
@@ -31,3 +40,9 @@ License
 -------
 
 This project is licensed under the MIT license.
+
+.. _Changelog: https://github.com/pyQode/pyqode-uic/blob/master/CHANGELOG.rst
+.. _Contributing: https://github.com/pyQode/pyqode-uic/blob/master/CONTRIBUTING.rst
+.. _pyQode: https://github.com/pyQode/pyQode
+.. _Issue tracker: https://github.com/pyQode/pyQode/issues
+.. _Wiki: https://github.com/pyQode/pyQode/wiki

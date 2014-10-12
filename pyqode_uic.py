@@ -1,12 +1,12 @@
 """
-Compile Qt ui files to python scripts using the ``pyqode.core.qt``
+Compile Qt ui files to python scripts using the ``pyqode.qt``
 package instead of ``PyQt5``.
 
 The tool is a simple wrapper on top of ``pyuic5``.
 
 It does two thing:
     - run pyuic5 (with the supplied arguments)
-    - replace ``from PyQt5 import`` by ``from pyqode.core.qt import`` in the
+    - replace ``from PyQt5 import`` by ``from pyqode.qt import`` in the
 
 """
 import re
@@ -16,7 +16,7 @@ import os
 
 def fix_imports(script):
     """
-    Replace "from PyQt5 import" by "from pyqode.core.qt import".
+    Replace "from PyQt5 import" by "from pyqode.qt import".
 
     :param script: script path
     """
@@ -27,7 +27,7 @@ def fix_imports(script):
         if l.startswith("import "):
             l = "from . " + l
         if "from PyQt5 import" in l:
-            l = l.replace("from PyQt5 import", "from pyqode.core.qt import")
+            l = l.replace("from PyQt5 import", "from pyqode.qt import")
         new_lines.append(l)
     with open(script, 'w') as f_script:
         f_script.write("\n".join(new_lines))

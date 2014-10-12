@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='pyqode-uic',
-    version='0.1',
+    version='0.1.1',
     py_modules=['pyqode_uic'],
     url='https://github.com/pyQode/pyqode-pyuic',
     license='MIT',
