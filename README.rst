@@ -1,16 +1,22 @@
 .. image:: https://raw.githubusercontent.com/pyQode/pyQode/master/media/pyqode-banner.png
+|
+.. image:: https://pypip.in/version/pyqode-uic/badge.svg
+   :target: https://pypi.python.org/pypi/pyqode-uic/
+   :alt: Latest PyPI version
+
+.. image:: https://pypip.in/download/pyqode-uic/badge.svg
+   :target: https://pypi.python.org/pypi/pyqode-uic/
+   :alt: Number of PyPI downloads
+
+.. image:: https://pypip.in/py_versions/pyqode-uic/badge.svg
+   :target: https://pypi.python.org/pypi/pyqode-uic/
+   :alt: Supported python version
+   
+.. image:: https://pypip.in/license/pyqode-uic/badge.svg
 
 
 About
 -----
-
-.. image:: http://img.shields.io/pypi/v/pyqode-uic.png
-   :target: https://pypi.python.org/pypi/pyqode-uic/
-   :alt: Latest PyPI version
-
-.. image:: http://img.shields.io/pypi/dm/pyqode-uic.png
-   :target: https://pypi.python.org/pypi/pyqode-uic/
-   :alt: Number of PyPI downloads
 
 Compile Qt Designer ui files to python scripts using the ``pyqode.qt``
 package instead of ``PyQt5``.
