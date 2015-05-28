@@ -1,19 +1,15 @@
 .. image:: https://raw.githubusercontent.com/pyQode/pyQode/master/media/pyqode-banner.png
 |
-.. image:: https://pypip.in/version/pyqode-uic/badge.svg
-   :target: https://pypi.python.org/pypi/pyqode-uic/
+
+.. image:: https://img.shields.io/pypi/v/pyqode-ui.svg
+   :target: https://pypi.python.org/pypi/pyqode-ui/
    :alt: Latest PyPI version
 
-.. image:: https://pypip.in/download/pyqode-uic/badge.svg
-   :target: https://pypi.python.org/pypi/pyqode-uic/
+.. image:: https://img.shields.io/pypi/dm/pyqode-ui.svg
+   :target: https://pypi.python.org/pypi/pyqode-ui/
    :alt: Number of PyPI downloads
 
-.. image:: https://pypip.in/py_versions/pyqode-uic/badge.svg
-   :target: https://pypi.python.org/pypi/pyqode-uic/
-   :alt: Supported python version
-   
-.. image:: https://pypip.in/license/pyqode-uic/badge.svg
-
+.. image:: https://img.shields.io/pypi/l/pyqode-ui.svg
 
 About
 -----
